@@ -18,7 +18,7 @@
 %%
 %% -------------------------------------------------------------------
 -module(riak_ensemble_test).
--compile(export_all).
+-compile([nowarn_export_all, export_all]).
 
 -define(ETS_TEST, riak_ensemble_test).
 

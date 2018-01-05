@@ -18,7 +18,7 @@
 %%
 %% -------------------------------------------------------------------
 -module(riak_ensemble_config).
--compile(export_all).
+-compile([nowarn_deprecated_function, nowarn_export_all, export_all]).
 -include_lib("riak_ensemble_types.hrl").
 
 %% @doc

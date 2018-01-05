@@ -22,6 +22,8 @@
 
 -module(riak_ensemble_msg).
 
+-compile(nowarn_deprecated_function).
+
 -export([send_all/4,
          send_all/5,
          blocking_send_all/4,

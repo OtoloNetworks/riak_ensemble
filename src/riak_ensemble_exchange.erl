@@ -18,7 +18,7 @@
 %%
 %% -------------------------------------------------------------------
 -module(riak_ensemble_exchange).
--compile(export_all).
+-compile([nowarn_export_all, nowarn_deprecated_function, export_all]).
 
 start_exchange(Ensemble, Peer, Id, Tree, Peers, Views, Trusted) ->
     spawn(fun() ->

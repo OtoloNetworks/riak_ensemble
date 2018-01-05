@@ -20,6 +20,8 @@
 -module(riak_ensemble_peer_tree).
 -behaviour(gen_server).
 
+-compile(nowarn_deprecated_function).
+
 %% API
 -export([start_link/3]).
 -export([get/2,

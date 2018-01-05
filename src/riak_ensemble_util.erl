@@ -26,6 +26,8 @@
          shuffle/1,
          cast_unreliable/2]).
 
+-compile(nowarn_deprecated_function).
+
 %%===================================================================
 
 -type delta() :: {any(), any()} | {'$none', any()} | {any(), '$none'}.

@@ -53,6 +53,8 @@
 %% Exported internal callback functions
 -export([do_kupdate/4, do_kput_once/4, do_kmodify/4]).
 
+-compile([nowarn_deprecated_function]).
+
 -compile({pulse_replace_module,
           [{gen_fsm, pulse_gen_fsm}]}).
 
